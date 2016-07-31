@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E994562D1857FF1800FACE42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E994562C1857FF1800FACE42 /* Cocoa.framework */; };
+		E99456371857FF1800FACE42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99456351857FF1800FACE42 /* InfoPlist.strings */; };
+		E99456391857FF1800FACE42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99456381857FF1800FACE42 /* main.m */; };
+		E994563D1857FF1800FACE42 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E994563B1857FF1800FACE42 /* Credits.rtf */; };
+		E99456401857FF1800FACE42 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E994563F1857FF1800FACE42 /* SSAppDelegate.m */; };
+		E99456431857FF1800FACE42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99456411857FF1800FACE42 /* MainMenu.xib */; };
+		E99456451857FF1800FACE42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99456441857FF1800FACE42 /* Images.xcassets */; };
+		E994564C1857FF1800FACE42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E994564B1857FF1800FACE42 /* XCTest.framework */; };
+		E994564D1857FF1800FACE42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E994562C1857FF1800FACE42 /* Cocoa.framework */; };
+		E99456551857FF1800FACE42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99456531857FF1800FACE42 /* InfoPlist.strings */; };
+		E99456571857FF1800FACE42 /* DashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99456561857FF1800FACE42 /* DashTests.m */; };
+		E99456611858013D00FACE42 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99456601858013D00FACE42 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E994564E1857FF1800FACE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99456211857FF1800FACE42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99456281857FF1800FACE42;
+			remoteInfo = Dash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E99456291857FF1800FACE42 /* Dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E994562C1857FF1800FACE42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E994562F1857FF1800FACE42 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E99456301857FF1800FACE42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E99456311857FF1800FACE42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E99456341857FF1800FACE42 /* Dash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dash-Info.plist"; sourceTree = "<group>"; };
+		E99456361857FF1800FACE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E99456381857FF1800FACE42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E994563A1857FF1800FACE42 /* Dash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dash-Prefix.pch"; sourceTree = "<group>"; };
+		E994563C1857FF1800FACE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E994563E1857FF1800FACE42 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		E994563F1857FF1800FACE42 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		E99456421857FF1800FACE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E99456441857FF1800FACE42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E994564A1857FF1800FACE42 /* DashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E994564B1857FF1800FACE42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E99456521857FF1800FACE42 /* DashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DashTests-Info.plist"; sourceTree = "<group>"; };
+		E99456541857FF1800FACE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E99456561857FF1800FACE42 /* DashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashTests.m; sourceTree = "<group>"; };
+		E99456601858013D00FACE42 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99456261857FF1800FACE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99456611858013D00FACE42 /* WebKit.framework in Frameworks */,
+				E994562D1857FF1800FACE42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99456471857FF1800FACE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E994564D1857FF1800FACE42 /* Cocoa.framework in Frameworks */,
+				E994564C1857FF1800FACE42 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E99456201857FF1800FACE42 = {
+			isa = PBXGroup;
+			children = (
+				E99456321857FF1800FACE42 /* Dash */,
+				E99456501857FF1800FACE42 /* DashTests */,
+				E994562B1857FF1800FACE42 /* Frameworks */,
+				E994562A1857FF1800FACE42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E994562A1857FF1800FACE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99456291857FF1800FACE42 /* Dash.app */,
+				E994564A1857FF1800FACE42 /* DashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E994562B1857FF1800FACE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E99456601858013D00FACE42 /* WebKit.framework */,
+				E994562C1857FF1800FACE42 /* Cocoa.framework */,
+				E994564B1857FF1800FACE42 /* XCTest.framework */,
+				E994562E1857FF1800FACE42 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E994562E1857FF1800FACE42 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E994562F1857FF1800FACE42 /* AppKit.framework */,
+				E99456301857FF1800FACE42 /* CoreData.framework */,
+				E99456311857FF1800FACE42 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E99456321857FF1800FACE42 /* Dash */ = {
+			isa = PBXGroup;
+			children = (
+				E994563E1857FF1800FACE42 /* SSAppDelegate.h */,
+				E994563F1857FF1800FACE42 /* SSAppDelegate.m */,
+				E99456411857FF1800FACE42 /* MainMenu.xib */,
+				E99456441857FF1800FACE42 /* Images.xcassets */,
+				E99456331857FF1800FACE42 /* Supporting Files */,
+			);
+			path = Dash;
+			sourceTree = "<group>";
+		};
+		E99456331857FF1800FACE42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99456341857FF1800FACE42 /* Dash-Info.plist */,
+				E99456351857FF1800FACE42 /* InfoPlist.strings */,
+				E99456381857FF1800FACE42 /* main.m */,
+				E994563A1857FF1800FACE42 /* Dash-Prefix.pch */,
+				E994563B1857FF1800FACE42 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E99456501857FF1800FACE42 /* DashTests */ = {
+			isa = PBXGroup;
+			children = (
+				E99456561857FF1800FACE42 /* DashTests.m */,
+				E99456511857FF1800FACE42 /* Supporting Files */,
+			);
+			path = DashTests;
+			sourceTree = "<group>";
+		};
+		E99456511857FF1800FACE42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99456521857FF1800FACE42 /* DashTests-Info.plist */,
+				E99456531857FF1800FACE42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99456281857FF1800FACE42 /* Dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E994565A1857FF1800FACE42 /* Build configuration list for PBXNativeTarget "Dash" */;
+			buildPhases = (
+				E99456251857FF1800FACE42 /* Sources */,
+				E99456261857FF1800FACE42 /* Frameworks */,
+				E99456271857FF1800FACE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dash;
+			productName = Dash;
+			productReference = E99456291857FF1800FACE42 /* Dash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E99456491857FF1800FACE42 /* DashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E994565D1857FF1800FACE42 /* Build configuration list for PBXNativeTarget "DashTests" */;
+			buildPhases = (
+				E99456461857FF1800FACE42 /* Sources */,
+				E99456471857FF1800FACE42 /* Frameworks */,
+				E99456481857FF1800FACE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E994564F1857FF1800FACE42 /* PBXTargetDependency */,
+			);
+			name = DashTests;
+			productName = DashTests;
+			productReference = E994564A1857FF1800FACE42 /* DashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99456211857FF1800FACE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = s4y;
+				TargetAttributes = {
+					E99456491857FF1800FACE42 = {
+						TestTargetID = E99456281857FF1800FACE42;
+					};
+				};
+			};
+			buildConfigurationList = E99456241857FF1800FACE42 /* Build configuration list for PBXProject "Dash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E99456201857FF1800FACE42;
+			productRefGroup = E994562A1857FF1800FACE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99456281857FF1800FACE42 /* Dash */,
+				E99456491857FF1800FACE42 /* DashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99456271857FF1800FACE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99456371857FF1800FACE42 /* InfoPlist.strings in Resources */,
+				E99456451857FF1800FACE42 /* Images.xcassets in Resources */,
+				E994563D1857FF1800FACE42 /* Credits.rtf in Resources */,
+				E99456431857FF1800FACE42 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99456481857FF1800FACE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99456551857FF1800FACE42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99456251857FF1800FACE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99456401857FF1800FACE42 /* SSAppDelegate.m in Sources */,
+				E99456391857FF1800FACE42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99456461857FF1800FACE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99456571857FF1800FACE42 /* DashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E994564F1857FF1800FACE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99456281857FF1800FACE42 /* Dash */;
+			targetProxy = E994564E1857FF1800FACE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E99456351857FF1800FACE42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99456361857FF1800FACE42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E994563B1857FF1800FACE42 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E994563C1857FF1800FACE42 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E99456411857FF1800FACE42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99456421857FF1800FACE42 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E99456531857FF1800FACE42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99456541857FF1800FACE42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E99456581857FF1800FACE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E99456591857FF1800FACE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E994565B1857FF1800FACE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dash/Dash-Prefix.pch";
+				INFOPLIST_FILE = "Dash/Dash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E994565C1857FF1800FACE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dash/Dash-Prefix.pch";
+				INFOPLIST_FILE = "Dash/Dash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E994565E1857FF1800FACE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dash.app/Contents/MacOS/Dash";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dash/Dash-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DashTests/DashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E994565F1857FF1800FACE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dash.app/Contents/MacOS/Dash";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dash/Dash-Prefix.pch";
+				INFOPLIST_FILE = "DashTests/DashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99456241857FF1800FACE42 /* Build configuration list for PBXProject "Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99456581857FF1800FACE42 /* Debug */,
+				E99456591857FF1800FACE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E994565A1857FF1800FACE42 /* Build configuration list for PBXNativeTarget "Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E994565B1857FF1800FACE42 /* Debug */,
+				E994565C1857FF1800FACE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E994565D1857FF1800FACE42 /* Build configuration list for PBXNativeTarget "DashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E994565E1857FF1800FACE42 /* Debug */,
+				E994565F1857FF1800FACE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E99456211857FF1800FACE42 /* Project object */;
+}
